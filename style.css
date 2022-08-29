@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* main page */
+.container{
+    border:10px;
+    padding-top:20px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    border:10px;
+    padding-top:20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* css for text in each box */
+p{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* box one */
+.box-1 {
+    background-color: #7cb9e8;
+    border: 1px;
+    border-radius: 10px;
+    border-color:black;
+    border-style: solid;
+    padding:10px;
+    align-items: center;
+  
+}
+.one{
+    padding:10px;
+}
+
+
+/* button container */
+button{
+    background-color:white;
+    padding:20px;
+    border-radius:10px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+}
+.button {
+    text-align:center;
+}
+
+
+
+/* box two */
+.box-2 {
+    background-color: #7cb9e8;
+    border: 1px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    display:block;
+    align-content: flex-end;
+    text-align: center;
+}
+.two{
+    padding-top: 0px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+}
+#three{
+    padding: 10px;
+    padding-bottom:20px;
+    text-align: left;
+    display: none;
+}
